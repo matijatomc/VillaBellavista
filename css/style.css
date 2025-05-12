@@ -1,0 +1,93 @@
+nav{
+  background-color: #FFB080;
+}
+
+nav .brand{
+  font-family: Italianno, cursive;
+  color: black;
+  font-size: 3rem;
+  padding-right: 10px;
+}
+
+.brand:hover{
+  text-decoration: none;
+}
+
+.hero-container {
+  position: relative;
+  display: flex;
+  height: 40vw;
+  overflow: hidden;
+}
+
+.left-img {
+  flex: 2;
+}
+
+.left-img img,
+.right-imgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.right-imgs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-img {
+  opacity: 0.7;
+  object-fit: cover;
+  height: 50vw;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Italianno, cursive;
+  font-size: 5vw;
+  color: black;
+  pointer-events: none;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2vw;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+main {
+  max-width: 1140px; 
+  margin: auto; 
+  padding: 40px 15px;
+}
+
+main i {
+  color: #FF8031;
+  font-size: 40px;
+}
+
+.more {
+  text-align: right;
+  color: #FF8031;
+  text-decoration: underline;
+}
+main h5 {
+  color: #FF8031;
+}
