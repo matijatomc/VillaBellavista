@@ -83,6 +83,10 @@ main i {
   font-size: 40px;
 }
 
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
 .more {
   text-align: right;
   color: #FF8031;
