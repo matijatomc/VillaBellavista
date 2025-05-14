@@ -21,13 +21,22 @@
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-lg-0">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.php">Naslovnica</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="galerija.php">Galerija</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="interijer.php">Interijer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eksterijer.php">Eksterijer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cijenik.php">Cijenik</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="rezerviraj.php">Rezerviraj</a>
@@ -65,34 +74,35 @@
                 <h1>Villa Bellavista</h1>
             </div>
         </div>
-        <p class="title">Tradicionalna, komforna kuća za odmor za 8 - 10 osoba, kompletno ograđeno dvorište, veliki
-            privatni bazen, blizu Poreča</p>
+
     </header>
     <main>
+        <p class="title">Tradicionalna, komforna kuća za odmor za 8 - 10 osoba, kompletno ograđeno dvorište, veliki
+            privatni bazen, blizu Poreča</p>
         <div class="d-flex justify-content-around align-items-center">
             <div class="row mb-4">
-                <div class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
                     <i class="fa-solid fa-door-open"></i>
                     <div class="ml-2">
                         <div>Sobe</div>
                         <div>4</div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
                     <i class="fa-solid fa-shower"></i>
                     <div class="ml-2">
                         <div>Kupaone</div>
                         <div>4</div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
                     <i class="fa-solid fa-user"></i>
                     <div class="ml-2">
                         <div>Osobe</div>
                         <div>10</div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
                     <i class="fa-solid fa-dog"></i>
                     <div class="ml-2">
                         <div>Ljubimci</div>
@@ -116,19 +126,33 @@
         <hr>
 
         <h5>Galerija</h5>
-        <div class="container-fluid">
-            <div class="scrolling-wrapper row flex-row flex-nowrap overflow-auto">
-                <div class="col-md-4">
-                    <div class="card card-block"><img src="img/galerija1.jpg" style="max-width: 400px;"></div>
+
+        <section class="d-none d-md-flex">
+            <div class="col-md-4 mb-3">
+                <img src="img/galerija1.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/galerija2.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/galerija3.jpg" class="img-fluid">
+            </div>
+        </section>
+
+        <div class="carousel slide d-md-none" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/galerija1.jpg" class="d-block img-fluid" />
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-block"><img src="img/galerija2.jpg" style="max-width: 400px;"></div>
+                <div class="carousel-item">
+                    <img src="img/galerija2.jpg" class="d-block img-fluid" />
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-block"><img src="img/galerija3.jpg" style="max-width: 400px;"></div>
+                <div class="carousel-item">
+                    <img src="img/galerija3.jpg" class="d-block img-fluid" />
                 </div>
             </div>
         </div>
+
         <div class="more"><a href="#" class="more">Više</a></div>
 
         <hr>

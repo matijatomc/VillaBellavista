@@ -32,13 +32,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="interijer.php">Interijer</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="eksterijer.php">Eksterijer</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="cijenik.php">Cijenik</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="rezerviraj.php">Rezerviraj</a>
                 </li>
             </ul>

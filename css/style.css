@@ -58,7 +58,7 @@ nav .brand{
 
 @media (min-width: 768px) {
   .title {
-    font-size: 2vw;
+    font-size: 30px;
     font-weight: 500;
     text-align: center;
   }
@@ -66,7 +66,7 @@ nav .brand{
 
 @media (max-width: 767.98px) {
   .title {
-    font-size: 3vw;
+    font-size: 20px;
     font-weight: 500;
     text-align: center;
   }
@@ -75,7 +75,7 @@ nav .brand{
 main {
   max-width: 1140px; 
   margin: auto; 
-  padding: 40px 15px;
+  padding: 20px 15px;
 }
 
 main i {
