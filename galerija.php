@@ -45,11 +45,62 @@
         </div>
     </nav>
     <header>
+        <section class="hero-container d-none d-md-flex">
+            <div class="left-img">
+                <img src="img/pocetna1.jpg" />
+            </div>
+            <div class="right-imgs">
+                <img src="img/pocetna2.jpg" />
+                <img src="img/pocetna3.jpg" />
+            </div>
+            <div class="text-overlay">
+                Villa Bellavista
+            </div>
+        </section>
 
+        <div class="carousel slide d-md-none" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/pocetna1.jpg" class="d-block w-100 carousel-img" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pocetna2.jpg" class="d-block w-100 carousel-img" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pocetna3.jpg" class="d-block w-100 carousel-img" />
+                </div>
+            </div>
+            <div class="text-overlay">
+                <h1>Villa Bellavista</h1>
+            </div>
+        </div>
     </header>
-    <main>
-        
+    <main class="gallery py-5">
+        <h1>Galerija</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija1.jpg" class="img-fluid rounded shadow" alt="Slika 1">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija2.jpg" class="img-fluid rounded shadow" alt="Slika 2">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija3.jpg" class="img-fluid rounded shadow" alt="Slika 3">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/pocetna1.jpg" class="img-fluid rounded shadow" alt="Slika 1">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/pocetna2.jpg" class="img-fluid rounded shadow" alt="Slika 2">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/pocetna3.jpg" class="img-fluid rounded shadow" alt="Slika 3">
+                </div>
+            </div>
+        </div>
     </main>
+
     <footer class="bg-light d-flex text-muted py-3 my-4 border-top">
         <div class="col-md-6">
             <p class="mb-2">Adresa: Radmani 20a, Poreč</p>

@@ -92,6 +92,6 @@ main i {
   color: #FF8031;
   text-decoration: underline;
 }
-main h5 {
+main h1, h2, h3, h4, h5 {
   color: #FF8031;
 }

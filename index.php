@@ -74,7 +74,6 @@
                 <h1>Villa Bellavista</h1>
             </div>
         </div>
-
     </header>
     <main>
         <p class="title">Tradicionalna, komforna kuća za odmor za 8 - 10 osoba, kompletno ograđeno dvorište, veliki
