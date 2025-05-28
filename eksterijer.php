@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Villa Bellavista</title>
@@ -44,11 +43,75 @@
             </ul>
         </div>
     </nav>
-    <header>
+    <main class="py-5">
+        <video autoplay muted loop playsinline class="w-100">
+                <source src="video/VID-20250407-WA0001.mp4" type="video/mp4">
+        </video>
+        <div class="container py-5">
+            <h1 class="text-center">Eksterijer</h1>
 
-    </header>
-    <main>
-        
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="img/vanNoc.jpg" class="img-fluid rounded shadow"/>
+                </div>
+                <div class="col-md-6">
+                    <h2>Privatnost i udobnost</h2>
+                    <p>
+                        Villa Bellavista smještena je unutar prostrane ograđene parcele s privatnim parkiralištem. 
+                        U prvom planu nalazi se bazen s ležaljkama, okružen njegovanim travnjakom — savršenim za sunčanje, igru i opuštanje.
+                    </p>
+                    <p>
+                        Uživajte u tišini i zelenilu, daleko od gradske buke, uz osjećaj potpune privatnosti.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+                <div class="col-md-6">
+                    <img src="img/galerija6.jpg" class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-6">
+                    <h2>Zabava za sve uzraste</h2>
+                    <p>
+                        U stražnjem dijelu dvorišta smješteni su trampolin i stol za stolni tenis — idealna zabava za djecu, ali i odrasle koji žele ostati aktivni i zaigrani.
+                    </p>
+                    <p>
+                        Okruženje je sigurno i otvoreno, s puno prostora za bezbrižnu igru.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="img/galerija33.jpg" class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-6">
+                    <h2>Pogled koji oduzima dah</h2>
+                    <p>
+                        S terase vile pruža se očaravajući pogled na okolnu prirodu, koji stvara savršenu atmosferu za jutarnju kavu ili večernje opuštanje.
+                    </p>
+                    <p>
+                        Osjetite pravi istarski duh dok uživate u svakom pogledu.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+                <div class="col-md-6">
+                    <img src="img/galerija11.jpg" class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-6">
+                    <h2>Uživanje na otvorenom</h2>
+                    <p>
+                        Ispred kuće nalazi se natkriveni vanjski stol uz roštilj, savršen za pripremu domaćih specijaliteta i druženja u toplim večerima.
+                    </p>
+                    <p>
+                        Uživajte u obrocima na svježem zraku, uz vino i razgovor — baš kao doma, ali još bolje.
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </main>
     <footer class="bg-light d-flex text-muted py-3 my-4 border-top">
         <div class="col-md-6">

@@ -95,3 +95,12 @@ main i {
 main h1, h2, h3, h4, h5 {
   color: #FF8031;
 }
+
+.gallery img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}

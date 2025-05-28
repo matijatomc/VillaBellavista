@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Villa Bellavista</title>
@@ -47,7 +46,34 @@
     <header>
 
     </header>
-    <main>
+    <main class="py-5">
+        <h1 class="text-center">Cijenik</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"> </th>
+                    <th scope="col">Cijena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Ljetna sezona (01.06 - 31.08)</th>
+                    <td>500€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Proljetna sezona (01.03 - 31.05)</th>
+                    <td>300€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Jesenska sezona (01.09 - 30.11)</th>
+                    <td>350€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Zimska sezona (01.12 - 28.02)</th>
+                    <td>250€</td>
+                </tr>
+            </tbody>
+        </table>
         
     </main>
     <footer class="bg-light d-flex text-muted py-3 my-4 border-top">

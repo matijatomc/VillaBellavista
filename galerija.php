@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Villa Bellavista</title>
@@ -44,58 +43,118 @@
             </ul>
         </div>
     </nav>
-    <header>
-        <section class="hero-container d-none d-md-flex">
-            <div class="left-img">
-                <img src="img/pocetna1.jpg" />
-            </div>
-            <div class="right-imgs">
-                <img src="img/pocetna2.jpg" />
-                <img src="img/pocetna3.jpg" />
-            </div>
-            <div class="text-overlay">
-                Villa Bellavista
-            </div>
-        </section>
-
-        <div class="carousel slide d-md-none" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/pocetna1.jpg" class="d-block w-100 carousel-img" />
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pocetna2.jpg" class="d-block w-100 carousel-img" />
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pocetna3.jpg" class="d-block w-100 carousel-img" />
-                </div>
-            </div>
-            <div class="text-overlay">
-                <h1>Villa Bellavista</h1>
-            </div>
-        </div>
-    </header>
     <main class="gallery py-5">
-        <h1>Galerija</h1>
+        <h1 class="text-center">Galerija</h1> 
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-4 mb-4">
-                    <img src="img/galerija1.jpg" class="img-fluid rounded shadow" alt="Slika 1">
+                    <img src="img/galerija1.jpg" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-sm-6 col-md-4 mb-4">
-                    <img src="img/galerija2.jpg" class="img-fluid rounded shadow" alt="Slika 2">
+                    <img src="img/galerija2.jpg" class="img-fluid rounded shadow"> 
                 </div>
                 <div class="col-sm-6 col-md-4 mb-4">
-                    <img src="img/galerija3.jpg" class="img-fluid rounded shadow" alt="Slika 3">
+                    <img src="img/galerija3.jpg" class="img-fluid rounded shadow">   
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija4.jpg" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-sm-6 col-md-4 mb-4">
-                    <img src="img/pocetna1.jpg" class="img-fluid rounded shadow" alt="Slika 1">
+                    <img src="img/galerija5.jpg" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-sm-6 col-md-4 mb-4">
-                    <img src="img/pocetna2.jpg" class="img-fluid rounded shadow" alt="Slika 2">
+                    <img src="img/galerija6.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija7.jpg" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-sm-6 col-md-4 mb-4">
-                    <img src="img/pocetna3.jpg" class="img-fluid rounded shadow" alt="Slika 3">
+                    <img src="img/galerija8.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija9.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija10.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija11.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija12.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija13.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija14.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija15.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija16.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija17.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija18.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija19.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija20.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija21.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija22.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija23.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija24.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija25.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija26.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija27.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija28.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija29.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija30.jpg" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija31.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija32.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <img src="img/galerija33.jpg" class="img-fluid rounded shadow">
                 </div>
             </div>
         </div>
@@ -110,7 +169,6 @@
             <p class="mb-2">© 2025 Bellavista</p>
         </div>
     </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>

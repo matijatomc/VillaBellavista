@@ -152,7 +152,7 @@
             </div>
         </div>
 
-        <div class="more"><a href="#" class="more">Više</a></div>
+        <div class="more"><a href="galerija.php" class="more">Više</a></div>
 
         <hr>
 
@@ -180,7 +180,7 @@
                 </ul>
             </div>
         </div>
-        <div class="more"><a href="#" class="more">Više</a></div>
+        <div class="more"><a href="eksterijer.php" class="more">Više</a></div>
 
         <hr>
 
