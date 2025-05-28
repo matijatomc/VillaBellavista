@@ -4,3 +4,5 @@ $(function () {
       minDate: 0
     });
   });
+
+$('#popoverData').popover();

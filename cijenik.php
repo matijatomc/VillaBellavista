@@ -74,6 +74,36 @@
                 </tr>
             </tbody>
         </table>
+
+        <h2>Dodatni troškovi</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"> </th>
+                    <th scope="col">Cijena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        Osiguranje od otkazivanja rezervacije 
+                        <a id="popoverData" class="btn" data-content="U slučaju da morate otkazati rezervaciju unutar 30 dana prije dolaska, dobivate povrat 90% svih uplata" rel="popover" data-placement="top" data-trigger="hover">info</a>
+                    </th>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        Osiguranje od štete
+                        <a id="popoverData2" class="btn" data-content="Umjesto gotovinskog pologa, uzmite osiguranje od štete i bit ćete pokriveni do 1250 € u slučaju nenamjerno prouzročene štete" rel="popover" data-placement="top" data-trigger="hover">info</a>
+                    </th>
+                    <td>35€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kučni ljubimci dnevno</th>
+                    <td>10€</td>
+                </tr>
+            </tbody>
+        </table>
         
     </main>
     <footer class="bg-light d-flex text-muted py-3 my-4 border-top">
@@ -90,6 +120,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/script.js"></script>
+    <script>
+        $('#popoverData').popover();
+        $('#popoverData2').popover();
+    </script>
 </body>
 
 </html>
