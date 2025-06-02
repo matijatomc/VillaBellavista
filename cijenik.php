@@ -48,63 +48,62 @@
     </header>
     <main class="py-5">
         <h1 class="text-center">Cijenik</h1>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col"> </th>
-                    <th scope="col">Cijena</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Ljetna sezona (01.06 - 31.08)</th>
-                    <td>500€</td>
-                </tr>
-                <tr>
-                    <th scope="row">Proljetna sezona (01.03 - 31.05)</th>
-                    <td>300€</td>
-                </tr>
-                <tr>
-                    <th scope="row">Jesenska sezona (01.09 - 30.11)</th>
-                    <td>350€</td>
-                </tr>
-                <tr>
-                    <th scope="row">Zimska sezona (01.12 - 28.02)</th>
-                    <td>250€</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2>Dodatni troškovi</h2>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col"> </th>
-                    <th scope="col">Cijena</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">
-                        Osiguranje od otkazivanja rezervacije 
-                        <a id="popoverData" class="btn" data-content="U slučaju da morate otkazati rezervaciju unutar 30 dana prije dolaska, dobivate povrat 90% svih uplata" rel="popover" data-placement="top" data-trigger="hover">info</a>
-                    </th>
-                    <td>5%</td>
-                </tr>
-                <tr>
-                    <th scope="row">
-                        Osiguranje od štete
-                        <a id="popoverData2" class="btn" data-content="Umjesto gotovinskog pologa, uzmite osiguranje od štete i bit ćete pokriveni do 1250 € u slučaju nenamjerno prouzročene štete" rel="popover" data-placement="top" data-trigger="hover">info</a>
-                    </th>
-                    <td>35€</td>
-                </tr>
-                <tr>
-                    <th scope="row">Kučni ljubimci dnevno</th>
-                    <td>10€</td>
-                </tr>
-            </tbody>
-        </table>
-        
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"> </th>
+                        <th scope="col">Ljetna sezona (01.06 - 31.08)</th>
+                        <th scope="col">Proljetna sezona (01.03 - 31.05)</th>
+                        <th scope="col">Jesenska sezona (01.09 - 30.11)</th>
+                        <th scope="col">Zimska sezona (01.12 - 28.02)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Noć</th>
+                        <td>500€</td>
+                        <td>300€</td>
+                        <td>350€</td>
+                        <td>250€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Polog</th>
+                        <td>300€</td>
+                        <td>300€</td>
+                        <td>300€</td>
+                        <td>300€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            Osiguranje od otkazivanja rezervacije 
+                            <a id="popoverData" class="btn" data-content="U slučaju da morate otkazati rezervaciju unutar 30 dana prije dolaska, dobivate povrat 90% svih uplata" rel="popover" data-placement="top" data-trigger="hover">info</a>
+                        </th>
+                        <td>5%</td>
+                        <td>5%</td>
+                        <td>5%</td>
+                        <td>5%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            Osiguranje od štete
+                            <a id="popoverData2" class="btn" data-content="Umjesto gotovinskog pologa, uzmite osiguranje od štete i bit ćete pokriveni do 1250 € u slučaju nenamjerno prouzročene štete" rel="popover" data-placement="top" data-trigger="hover">info</a>
+                        </th>
+                        <td>35€</td>
+                        <td>35€</td>
+                        <td>35€</td>
+                        <td>35€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Kučni ljubimci dnevno</th>
+                        <td>10€</td>
+                        <td>10€</td>
+                        <td>10€</td>
+                        <td>10€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer class="bg-light d-flex text-muted py-3 my-4 border-top">
         <div class="col-md-6">
@@ -120,8 +119,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/script.js"></script>
-    <script>
-        $('#popoverData').popover();
+    <script>    
         $('#popoverData2').popover();
     </script>
 </body>

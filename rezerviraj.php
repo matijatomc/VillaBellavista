@@ -49,78 +49,84 @@
         <p class="text-center text-muted mb-4">Ispunite obrazac i kontaktirat ćemo vas u najkraćem roku</p>
 
         <form>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="ime">Ime</label>
-                <input type="text" class="form-control" id="ime" placeholder="Vaše ime">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="ime">Ime</label>
+                    <input type="text" class="form-control" id="ime" placeholder="Vaše ime">
+                    <div class="invalid-feedback">Molimo unesite ime.</div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="prezime">Prezime</label>
+                    <input type="text" class="form-control" id="prezime" placeholder="Vaše prezime">
+                    <div class="invalid-feedback">Molimo unesite prezime.</div>
+                </div>
             </div>
-            <div class="form-group col-md-6">
-                <label for="prezime">Prezime</label>
-                <input type="text" class="form-control" id="prezime" placeholder="Vaše prezime">
-            </div>
-        </div>
 
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="email@example.com">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                    <div class="invalid-feedback">Molimo unesite email.</div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="odrasli">Broj odraslih osoba</label>
+                    <input type="number" class="form-control" id="odrasli" min="1" placeholder="npr. 2">
+                    <div class="invalid-feedback">Molimo unesite broj osoba.</div>
+                </div>
             </div>
-            <div class="form-group col-md-6">
-                <label for="odrasli">Broj odraslih osoba</label>
-                <input type="number" class="form-control" id="odrasli" min="1" placeholder="npr. 2">
-            </div>
-        </div>
 
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="mladi">Broj mladih (do 18 god.)</label>
-                <input type="number" class="form-control" id="mladi" min="0" placeholder="npr. 1">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="mladi">Broj mladih (do 18 god.)</label>
+                    <input type="number" class="form-control" id="mladi" min="0" value="0">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="djeca">Broj djece (do 12 god.)</label>
+                    <input type="number" class="form-control" id="djeca" min="0" value="0">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="bebe">Broj beba</label>
+                    <input type="number" class="form-control" id="bebe" min="0" value="0">
+                </div>
             </div>
-            <div class="form-group col-md-4">
-                <label for="djeca">Broj djece (do 12 god.)</label>
-                <input type="number" class="form-control" id="djeca" min="0" placeholder="npr. 2">
-            </div>
-            <div class="form-group col-md-4">
-                <label for="bebe">Broj beba</label>
-                <input type="number" class="form-control" id="bebe" min="0" placeholder="npr. 1">
-            </div>
-        </div>
 
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="dolazak">Datum dolaska</label>
-                <input type="text" class="form-control" id="dolazak" placeholder="Odaberite datum">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="dolazak">Datum dolaska</label>
+                    <input type="text" class="form-control" id="dolazak" placeholder="Odaberite datum">
+                    <div class="invalid-feedback">Molimo unesite datum dolaska.</div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="odlazak">Datum odlaska</label>
+                    <input type="text" class="form-control" id="odlazak" placeholder="Odaberite datum">
+                    <div class="invalid-feedback">Molimo unesite datum odlaska.</div>
+                </div>
             </div>
-            <div class="form-group col-md-6">
-                <label for="odlazak">Datum odlaska</label>
-                <input type="text" class="form-control" id="odlazak" placeholder="Odaberite datum">
-            </div>
-        </div>
 
-        <div class="form-group">
-            <label for="poruka">Napomena</label>
-            <textarea class="form-control" id="poruka" rows="3" placeholder="Dodatne informacije..."></textarea>
-        </div>
+            <div class="form-group">
+                <label for="poruka">Napomena</label>
+                <textarea class="form-control" id="poruka" rows="3" placeholder="Dodatne informacije..."></textarea>
+            </div>
 
-        <div class="form-group checkbox-group">
-            <label>Dodatne opcije (neobavezno):</label>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="osiguranje1">
-                <label class="form-check-label" for="osiguranje1">Osiguranje od štete</label>
+            <div class="form-group checkbox-group">
+                <label>Dodatne opcije (neobavezno):</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="osiguranje1">
+                    <label class="form-check-label" for="osiguranje1">Osiguranje od štete</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="osiguranje2">
+                    <label class="form-check-label" for="osiguranje2">Osiguranje od otkazivanja</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="kucniLjubimci">
+                    <label class="form-check-label" for="kucniLjubimci">Dolazak s kućnim ljubimcima</label>
+                </div>
             </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="osiguranje2">
-                <label class="form-check-label" for="osiguranje2">Osiguranje od otkazivanja</label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="kucniLjubimci">
-                <label class="form-check-label" for="kucniLjubimci">Dolazak s kućnim ljubimcima</label>
-            </div>
-        </div>
 
-        <div class="text-center mt-4">
-            <button type="submit" class="btn btn-primary">Pošalji rezervaciju</button>
-        </div>
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary">Pošalji rezervaciju</button>
+            </div>
         </form>
     </main>
     <footer class="bg-light d-flex text-muted py-3 my-4 border-top">
@@ -139,13 +145,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/script.js"></script>
     <script>
-        $(function () {
-            $("#dolazak, #odlazak").datepicker({
-            dateFormat: "dd.mm.yy",
-            minDate: 0
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault(); // Zaustavi slanje forme
+
+            // Popis ID-jeva obaveznih polja
+            var requiredFields = ['ime', 'prezime', 'email', 'odrasli', 'dolazak', 'odlazak'];
+            var isValid = true;
+
+            requiredFields.forEach(function (id) {
+                var field = document.getElementById(id);
+                if (!field.value.trim()) {
+                    field.classList.add('is-invalid');
+                    isValid = false;
+                } else {
+                    field.classList.remove('is-invalid');
+                }
             });
+
+            if (isValid) {
+                // Ako su sva polja ispravna, možeš ovdje slati formu (npr. AJAX) ili:
+                // this.submit(); // ako želiš nastaviti s klasičnim slanjem forme
+                alert('Rezervacija uspješno poslana!'); // privremeno
+            }
         });
     </script>
+
 </body>
 
 </html>

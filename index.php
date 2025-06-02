@@ -128,13 +128,13 @@
 
         <section class="d-none d-md-flex">
             <div class="col-md-4 mb-3">
-                <img src="img/galerija1.jpg" class="img-fluid">
+                <img src="img/galerija1.jpg" class="img-fluid rounded shadow">
             </div>
             <div class="col-md-4 mb-3">
-                <img src="img/galerija2.jpg" class="img-fluid">
+                <img src="img/galerija2.jpg" class="img-fluid rounded shadow">
             </div>
             <div class="col-md-4 mb-3">
-                <img src="img/galerija3.jpg" class="img-fluid">
+                <img src="img/galerija3.jpg" class="img-fluid rounded shadow">
             </div>
         </section>
 
