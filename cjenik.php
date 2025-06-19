@@ -1,7 +1,7 @@
 <?php
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,7 @@
                     <a class="nav-link" href="eksterijer.php">Eksterijer</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="cijenik.php">Cijenik</a>
+                    <a class="nav-link" href="cjenik.php">Cjenik</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="rezerviraj.php">Rezerviraj</a>
@@ -47,62 +47,68 @@
 
     </header>
     <main class="py-5">
-        <h1 class="text-center">Cijenik</h1>
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th scope="col"> </th>
-                        <th scope="col">Ljetna sezona (01.06 - 31.08)</th>
-                        <th scope="col">Proljetna sezona (01.03 - 31.05)</th>
-                        <th scope="col">Jesenska sezona (01.09 - 30.11)</th>
-                        <th scope="col">Zimska sezona (01.12 - 28.02)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Noć</th>
-                        <td>500€</td>
-                        <td>300€</td>
-                        <td>350€</td>
-                        <td>250€</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Polog</th>
-                        <td>300€</td>
-                        <td>300€</td>
-                        <td>300€</td>
-                        <td>300€</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            Osiguranje od otkazivanja rezervacije 
+        <h1 class="text-center">Cjenik</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div id="no-more-tables">
+                    <table class="table table-bordered table-striped table-condensed">
+                    <thead>
+                        <tr>
+                        <th>Vrsta</th>
+                        <th>Ljetna sezona (01.06 - 31.08)</th>
+                        <th>Proljetna sezona (01.03 - 31.05)</th>
+                        <th>Jesenska sezona (01.09 - 30.11)</th>
+                        <th>Zimska sezona (01.12 - 28.02)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th>Noć</th>
+                        <td data-title="Ljetna sezona">500€</td>
+                        <td data-title="Proljetna sezona">300€</td>
+                        <td data-title="Jesenska sezona">350€</td>
+                        <td data-title="Zimska sezona">250€</td>
+                        </tr>
+                        <tr>
+                        <th>Polog</th>
+                        <td data-title="Ljetna sezona">300€</td>
+                        <td data-title="Proljetna sezona">300€</td>
+                        <td data-title="Jesenska sezona">300€</td>
+                        <td data-title="Zimska sezona">300€</td>
+                        </tr>
+                        <tr>
+                        <th>
+                            Osiguranje od otkazivanja rezervacije
                             <a id="popoverData" class="btn" data-content="U slučaju da morate otkazati rezervaciju unutar 30 dana prije dolaska, dobivate povrat 90% svih uplata" rel="popover" data-placement="top" data-trigger="hover">info</a>
                         </th>
-                        <td>5%</td>
-                        <td>5%</td>
-                        <td>5%</td>
-                        <td>5%</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
+                        <td data-title="Ljetna sezona">5%</td>
+                        <td data-title="Proljetna sezona">5%</td>
+                        <td data-title="Jesenska sezona">5%</td>
+                        <td data-title="Zimska sezona">5%</td>
+                        </tr>
+                        <tr>
+                        <th>
                             Osiguranje od štete
                             <a id="popoverData2" class="btn" data-content="Umjesto gotovinskog pologa, uzmite osiguranje od štete i bit ćete pokriveni do 1250 € u slučaju nenamjerno prouzročene štete" rel="popover" data-placement="top" data-trigger="hover">info</a>
                         </th>
-                        <td>35€</td>
-                        <td>35€</td>
-                        <td>35€</td>
-                        <td>35€</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Kučni ljubimci dnevno</th>
-                        <td>10€</td>
-                        <td>10€</td>
-                        <td>10€</td>
-                        <td>10€</td>
-                    </tr>
-                </tbody>
-            </table>
+                        <td data-title="Ljetna sezona">35€</td>
+                        <td data-title="Proljetna sezona">35€</td>
+                        <td data-title="Jesenska sezona">35€</td>
+                        <td data-title="Zimska sezona">35€</td>
+                        </tr>
+                        <tr>
+                        <th>Kućni ljubimci dnevno</th>
+                        <td data-title="Ljetna sezona">10€</td>
+                        <td data-title="Proljetna sezona">10€</td>
+                        <td data-title="Jesenska sezona">10€</td>
+                        <td data-title="Zimska sezona">10€</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="bg-light d-flex text-muted py-3 my-4 border-top">
@@ -120,6 +126,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/script.js"></script>
     <script>    
+        $('#popoverData').popover();
         $('#popoverData2').popover();
     </script>
 </body>

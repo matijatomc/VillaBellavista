@@ -97,10 +97,63 @@ main h1, h2, h3, h4, h5 {
 }
 
 .gallery img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .gallery img:hover {
-    transform: scale(1.03);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 800px) {
+  #no-more-tables table,
+  #no-more-tables thead,
+  #no-more-tables tbody,
+  #no-more-tables th,
+  #no-more-tables td,
+  #no-more-tables tr {
+      display: block;
+  }
+
+  #no-more-tables thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  #no-more-tables tr {
+      border: 1px solid #ccc;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      padding: 0.5rem;
+  }
+
+  #no-more-tables td {
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      white-space: normal;
+      text-align: left;
+  }
+
+  #no-more-tables td:before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+      font-weight: bold;
+      content: attr(data-title);
+  }
+
+  #no-more-tables th {
+      display: block;
+      background-color: #f8f9fa;
+      font-weight: bold;
+      padding-left: 6px;
+      margin-bottom: 0.5rem;
+  }
 }

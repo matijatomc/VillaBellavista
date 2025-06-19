@@ -1,7 +1,7 @@
 <?php
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,7 @@
                     <a class="nav-link" href="eksterijer.php">Eksterijer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cijenik.php">Cijenik</a>
+                    <a class="nav-link" href="cjenik.php">Cjenik</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="rezerviraj.php">Rezerviraj</a>
